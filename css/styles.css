@@ -10,19 +10,58 @@ body {
 	color: #202030;
 	background-color: #f8f8fc;
 }
-
+/* Styles for fonts in the document. */
+h1{
+	padding-top: 20px;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 50px;
+}
+h2{
+	color: #ffffff;
+	font-size: 30px;
+	font-family: 'Bungee Inline', cursive;
+}
+h2-black{
+	color: #3A4336;
+	font-size: 30px;
+	font-family: 'Bungee Inline', cursive;
+}
+h4{
+	margin-top: 10px;
+}
+h5{
+	margin-top:-10px;
+}
+.language-name{
+	color:#fff;
+}
+/* styles for header */
+.picture-bente {
+	width: 160px;
+	border: 7px solid #7B8D74;
+	border-radius: 50%;
+	margin: 20px;
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+.logo-container{
+	margin-top: 15px;
+}
 .resume-header {
     background-color: #e0f0ff;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #f6efe7;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-image: url("../images/henry-co--odUkx8C2gg-unsplash.jpg");
+	background-size:contain;
+	box-shadow: inset 0 0 0 1000px rgba(123, 142, 116,.6);
+}
+.tagline{
+	max-width: 900px;
 }
 
 /* Styles for lists in the document */
@@ -44,8 +83,20 @@ body {
 }
 
 /* Styles for contact icons */
-
+.d-flex-align-items-center{
+	color: #ffffff
+}
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+	padding-right: 10px;
 }
+.col-md-5.col-lg-4.col-xl-3.resume-aside .my-3.aside-section .asidetitle {
+}
+.asidetitle {
+    color: #FFFFFF;
+}
+.skill-item {
+    color: #FFFFFF;
+}
+
